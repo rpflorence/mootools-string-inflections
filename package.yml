@@ -3,3 +3,5 @@ author: rpflo
 category: Native
 tags: [string]
 current: 1.0
+sources:
+  - Source/String.Inflections.js
