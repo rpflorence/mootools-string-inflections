@@ -223,7 +223,7 @@ String.implement({
 
 Number.implement({
 	ordinalize: function(){
-		return this + ''.ordinalize();
+		return (this + '').ordinalize();
 	}
 });
 
