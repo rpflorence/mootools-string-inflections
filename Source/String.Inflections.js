@@ -17,8 +17,8 @@ thanks:
   - sporkyy (http://snippets.dzone.com/posts/show/3205)
 
 requires: 
-  - Core:1.2.4/String
-  - Core:1.2.4/Number
+  - Core/String
+  - Core/Number
 
 provides: 
   - String.camelize
@@ -223,7 +223,7 @@ String.implement({
 
 Number.implement({
 	ordinalize: function(){
-		return this + ''.ordinalize();
+		return (this + '').ordinalize();
 	}
 });
 
